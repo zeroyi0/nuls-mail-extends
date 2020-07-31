@@ -61,7 +61,7 @@ public class SendMailService implements InitializingBean {
         if (!file.exists()) {
             file.createNewFile();
         }
-        BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+        BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
         writer.write(hash);
         writer.newLine();
         writer.flush();

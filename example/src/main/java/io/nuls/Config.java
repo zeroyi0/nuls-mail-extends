@@ -63,7 +63,7 @@ public class Config {
 
 
     public String getDataPath() {
-        return dataPath + File.separator + "mail";
+        return dataPath + File.separator + "mail2";
     }
 
     public void setDataPath(String dataPath) {
